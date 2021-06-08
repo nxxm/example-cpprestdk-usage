@@ -1,0 +1,22 @@
+{
+  "nxxm/cpprestsdk" : {
+    "@" : "nxxm-tweaks",
+    "s" : [
+      "Release/include/"
+      , "Release/src"
+      , "Release/src/pch"
+      , "Release/src/utilities/"
+    ],
+    "x:clang-cxx17" : [
+      "Release/src/http/client/http_client_winhttp.cpp",
+      "Release/src/http/client/http_client_winrt.cpp",
+      "Release/src/http/listener/http_server_httpsys.cpp",
+      "Release/src/pplx/pplxlinux.cpp",
+      "Release/src/pplx/pplxwin.cpp",
+      "Release/src/streams/fileio_win32.cpp",
+      "Release/src/streams/fileio_winrt.cpp",
+      "Release/src/websockets",
+      "Release/tests"
+    ]
+  }
+}
